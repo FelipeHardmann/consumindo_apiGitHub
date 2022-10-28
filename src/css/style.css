@@ -6,36 +6,42 @@ body{
 
 h1{
     color: aliceblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
 }
-
 
 .inputTxt{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    color: gray;
 }
 
 input{
-    border-radius: 9px;
+    border-radius: 6px;
     box-shadow: 5px 5px 6px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
     color: black;
     margin: 7px;
+    border: none;
 }
 
-
-
 button{
-    border-radius: 9px;
+    border-radius: 6px;
     box-shadow: 5px 5px 6px black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    height: 40px;
     color: aliceblue;
     background-color: black;
     margin: 7px;
-    transition-duration: 0.5s;
+    transition: 1s;
+    border: none;
+    width: 70px;
 }
 
 
@@ -45,13 +51,11 @@ button:hover{
     transition-duration: 0.5s;
 }
 
-
-#sec2{
+.container-all{
     display: grid;
     justify-content: center;
     margin-top: 40px;
 }
-
 
 #avatar{
     width: 200px;
